@@ -1,0 +1,19 @@
+.header {
+    overflow: hidden;
+    background: var(--white);
+    box-shadow: var(--shadow-min);
+    border-radius: 10px;
+}
+
+span {
+    float: left;
+    color: var(--primary);
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.white_space {
+    height: 1rem;
+}
