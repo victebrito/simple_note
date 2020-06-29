@@ -20,7 +20,17 @@ body {
     --primary-dark: #20243b;
     --secondary: #cd8883;
     --white: #f8f7f7;
-    --grey: #424242;
-    --shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
-    --shadow-min: 9px 9px 16px rgb(163, 177, 198, 0.2), -9px -9px 16px rgba(255, 255, 255, 0.2);
+    --grey: #c7c7c710;
+    --shadow: 3px 3px 10px rgb(163, 177, 198, 0.6), -3px -3px 10px rgba(255, 255, 255, 0.5);
+    --shadow-min: 3px 3px 10px rgb(163, 177, 198, 0.5), -3px -3px 10px rgba(255, 255, 255, 0.2);
+    --reverse-shadow: inset -9px -9px 16px rgba(255, 255, 255, 1),
+        inset 3px 9px 16px rgba(163, 177, 198, 0.5);
+}
+
+#root {
+    height: 100%;
+}
+
+.hidden {
+    display: none;
 }

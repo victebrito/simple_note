@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./List.css";
+import "./List.css";
 
 class List extends React.Component {
     render() {
         return (
-            <div style={style.list}>
+            <div className="list">
                 <p>List</p>
             </div>
         );
