@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    background-color: white;
+    background-color: #20243b;
 }
 
 body {
@@ -8,6 +8,7 @@ body {
     height: 98%;
     width: 98%;
     margin: 0 0 0 0 auto;
+    border-radius: 15px;
     font-family: "Karla", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -20,7 +21,7 @@ body {
     --primary-dark: #20243b;
     --secondary: #cd8883;
     --white: #f8f7f7;
-    --grey: #c7c7c710;
+    --grey: #c7c7c720;
     --shadow: 3px 3px 10px rgb(163, 177, 198, 0.6), -3px -3px 10px rgba(255, 255, 255, 0.5);
     --shadow-min: 3px 3px 10px rgb(163, 177, 198, 0.5), -3px -3px 10px rgba(255, 255, 255, 0.2);
     --reverse-shadow: inset -9px -9px 16px rgba(255, 255, 255, 1),
